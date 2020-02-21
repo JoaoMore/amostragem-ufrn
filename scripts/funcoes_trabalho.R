@@ -1,0 +1,16 @@
+centro <- function(texto) {
+  if (texto == 'CENTRO DE TECNOLOGIA') 
+    return('CT')
+  if (texto == 'CENTRO DE CIÊNCIAS EXATAS E DA TERRA') 
+    return('CCET')
+  if (texto == 'CENTRO DE BIOCIÊNCIAS') 
+    return('CB')
+  if (texto == 'CENTRO DE CIÊNCIAS DA SAÚDE') 
+    return('CCS')
+  if (texto == 'CENTRO DE CIÊNCIAS HUMANAS, LETRAS E ARTES') 
+    return('CCHLA')
+  if (texto == 'CENTRO DE EDUCAÇÃO') 
+    return('CE')
+  if (texto == 'CENTRO DE CIÊNCIAS SOCIAIS APLICADAS') 
+    return('CCSA')
+}

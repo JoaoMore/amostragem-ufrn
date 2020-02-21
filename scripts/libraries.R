@@ -1,0 +1,7 @@
+library(survey)
+library(SamplingStrata)
+library(tidyverse)
+library(sampling)
+library(kableExtra)
+library(ggridges)
+library(bibtex)
